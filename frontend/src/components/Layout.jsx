@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom';
 import { number } from 'framer-motion';
 import axios from 'axios';
 
-const API_BASE = "http://localhost:4000/api"
+const API_BASE = "https://expense-tracker-app-backend-wpiu.onrender.com/api"
 const CATEGORY_ICONS = {
     Food: <Utensils className="w-4 h-4" />,
     Housing: <Home className="w-4 h-4" />,

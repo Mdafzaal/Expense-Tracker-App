@@ -5,7 +5,7 @@ import { ChevronDown, LogIn, LogOut, User } from "lucide-react";
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 
-const BASE_URL = 'http://localhost:4000/api'
+const BASE_URL = 'https://expense-tracker-app-backend-wpiu.onrender.com/api'
 
 const Navbar = ({ user: propUser, onLogout }) => {
     const navigate = useNavigate();

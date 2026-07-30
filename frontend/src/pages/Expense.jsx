@@ -30,7 +30,7 @@ import { getTimeFrameRange, generateChartPoints } from "../components/Helpers.js
 import { CATEGORY_ICONS } from "../assets/color.jsx";
 import { expensePageStyles as styles } from "../assets/dummyStyles.js";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://expense-tracker-app-backend-wpiu.onrender.com/api";
 
 /**
  * Helper: convert date (or datetime) to ISO by attaching client current time
