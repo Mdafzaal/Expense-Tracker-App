@@ -58,4 +58,5 @@ Create a .env file inside the frontend folder:
 VITE_API_URL=your_backend_url
 Author
 Mohd Afzaal
+
 ```
